@@ -4,7 +4,43 @@
 body {
     font-family: 'Roboto', sans-serif;
     -webkit-font-smoothing: antialiased;
+    background-image: cover;
+    text-align:center;
 }
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 18rem;
+    padding-right: 18rem;
+    padding-top: 0.8rem;
+}
+nav .logo{
+    width: 1.5rem;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */ 
+}
+ 
+li a{
+    text-decoration: none;
+    color: rgb(202, 192, 192);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+ul li a:first-child{
+        color:black;
+    }
+    
+/* li {
+    float: left;
+    padding: 1rem;
+    
+   }  */
+    
+   
 
 /**
  * Add your custom styles below
